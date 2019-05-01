@@ -1,0 +1,131 @@
+body {
+    background: -webkit-radial-gradient(#f28086, #410149);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+  margin: 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style-type: none;
+  overflow:hidden;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+li a {
+  margin: 5px;
+  padding: 16px 60px;
+  color: black;
+  display: block;
+  width: 205px;
+  background-color:#ffc37c;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px black;
+}
+li a.active {
+  background-color: #f78600;
+}
+
+li a:hover:not(.active) {
+  background-color: #f78600;
+
+}
+h1{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#fff, #ffc37c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 10px;
+}
+p{
+  margin: 25px;
+}
+.texto{
+  font-size: 22px;
+  background: -webkit-linear-gradient(#fff, #ffc37c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span a{
+  font-size: 22px;
+  font-family: 'Futura';
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fcb053, 0 0 30px #fcb053, 0 0 40px #fcb053, 0 0 55px #fcb053, 0 0 75px #fcb053;
+  text-decoration: none;
+}
+table{
+  margin: 10px 10px;
+}
+@media screen and (max-width: 1600px) {
+  tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+  td {
+    flex: 1 1 150px;
+  }
+}
+td{
+  padding: 15px;
+}
+.tdText{
+  text-align: center;
+  font-size: 18px;
+}
+.precoAntigo{
+  text-decoration: line-through;
+}
+table img{
+  border: 2px solid rgb(213, 196, 231);
+  box-shadow: 2px 2px 4px black;
+}
+.rodapé{
+  font-size: 18px;
+  background-color: white;
+}
+.ulrodapé{
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  background: #efeded;
+  justify-content: flex-start;
+  padding: 0px;
+}
+.logo{
+  padding-left: 30px;
+}
+.botao{
+  margin: 10px;
+}
+.promo{
+  font-size: 50px;
+  background: -webkit-linear-gradient(#fff, #ffc37c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  padding: 10px;
+  margin: 25px;
+}
+h2{
+  font-size: 35px;
+  background: -webkit-linear-gradient(#fff, #ffc37c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  padding: 10px;
+  margin: 25px;
+}
+.ex{
+  font-size: 25px;
+  color: #ffc37c;
+  font-weight: bold;
+  text-decoration: underline;
+}
